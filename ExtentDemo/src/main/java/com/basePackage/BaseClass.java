@@ -58,6 +58,8 @@ public class BaseClass {
 
 			e.getMessage();
 		}
+		String newImageString = "http://localhost:8080/job/ExtentDemo/ws/ExtentDemo/ScreenShot/" + filename + "_"
+				+ dateName + ".png";
 		return destination;
 	}
 
