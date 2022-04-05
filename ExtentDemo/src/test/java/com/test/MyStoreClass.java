@@ -47,6 +47,8 @@ public class MyStoreClass extends BaseClass {
 		Assert.assertTrue(true);
 		ExtentManager.test.createNode("Validation4");
 		Assert.assertTrue(true);
+		ExtentManager.test.createNode("Validation5");
+		Assert.assertTrue(true);
 
 	}
 }
