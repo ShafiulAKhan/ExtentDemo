@@ -60,7 +60,7 @@ public class BaseClass {
 		}
 		String newImageString = "http://localhost:8080/job/ExtentDemo/ws/ExtentDemo/ScreenShot/" + filename + "_"
 				+ dateName + ".png";
-		return destination;
+		return newImageString;
 	}
 
 	public static String getCurrentTime() {
